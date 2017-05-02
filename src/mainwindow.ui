@@ -50,7 +50,7 @@
     <property name="title">
      <string>Properties</string>
     </property>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="vnumLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -63,7 +63,7 @@
       <string>VNUM</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_14">
+    <widget class="QLabel" name="nameLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -76,7 +76,7 @@
       <string>Name</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_16">
+    <widget class="QLabel" name="inputLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -89,7 +89,7 @@
       <string>Inventory</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_17">
+    <widget class="QLabel" name="typeLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -102,7 +102,7 @@
       <string>Type</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_18">
+    <widget class="QLabel" name="subTypeLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -115,7 +115,7 @@
       <string>Subtype</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_19">
+    <widget class="QLabel" name="slotLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -128,7 +128,7 @@
       <string>Equip slot</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_20">
+    <widget class="QLabel" name="imageLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -141,7 +141,7 @@
       <string>Image</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_21">
+    <widget class="QLabel" name="morphIdLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -154,7 +154,7 @@
       <string>Morph ID</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_15">
+    <widget class="QLineEdit" name="nameLineEdit">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -173,7 +173,7 @@
       <string>No item selected!</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_22">
+    <widget class="QLabel" name="priceLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -186,7 +186,7 @@
       <string>Price</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox">
+    <widget class="QComboBox" name="wearBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -236,7 +236,7 @@
       </property>
      </item>
     </widget>
-    <widget class="QComboBox" name="comboBox_2">
+    <widget class="QComboBox" name="typeBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -246,7 +246,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_3">
+    <widget class="QComboBox" name="subTypeBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -256,7 +256,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox">
+    <widget class="QSpinBox" name="vnumInput">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -275,7 +275,7 @@
       <number>0</number>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox_2">
+    <widget class="QSpinBox" name="slotBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -294,7 +294,7 @@
       <number>0</number>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox_3">
+    <widget class="QSpinBox" name="priceInput">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -313,7 +313,7 @@
       <number>0</number>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox_4">
+    <widget class="QSpinBox" name="morphIdBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -332,7 +332,7 @@
       <number>-1</number>
      </property>
     </widget>
-    <widget class="QGroupBox" name="groupBox_3">
+    <widget class="QGroupBox" name="dataGroupBox">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -345,7 +345,7 @@
       <string>DATA edit</string>
      </property>
     </widget>
-    <widget class="QGroupBox" name="groupBox_4">
+    <widget class="QGroupBox" name="buffGroupBox">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -358,7 +358,7 @@
       <string>BUFF edit</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_23">
+    <widget class="QLabel" name="descLinesLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -371,7 +371,7 @@
       <string>Desc. lines</string>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox_5">
+    <widget class="QSpinBox" name="descBox">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -390,7 +390,7 @@
       <number>3</number>
      </property>
     </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit">
+    <widget class="QPlainTextEdit" name="descTextEdit">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -404,7 +404,7 @@
 Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_24">
+    <widget class="QLabel" name="descLabel">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -417,7 +417,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>Descrption</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_15">
+    <widget class="QLabel" name="imageIcon">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -445,7 +445,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="loadFromNsipButt">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -458,7 +458,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>From NSipData</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="loadFromImgButt">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -471,7 +471,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>From image file</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="updateButton">
      <property name="geometry">
       <rect>
        <x>380</x>
@@ -496,7 +496,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>Update item</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="discardButton">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -522,7 +522,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
      </property>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox_2">
+   <widget class="QGroupBox" name="itemGroupBox">
     <property name="geometry">
      <rect>
       <x>568</x>
@@ -550,7 +550,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="searchInput">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -566,7 +566,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>Search by name/VNUM...</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_5">
+    <widget class="QPushButton" name="addNewButt">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -587,7 +587,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -609,6 +609,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
     <property name="toolTipsVisible">
      <bool>false</bool>
     </property>
+    <addaction name="actionInformation"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuInfo"/>
@@ -643,6 +644,11 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
    </property>
    <property name="text">
     <string>NSlangData.NOS</string>
+   </property>
+  </action>
+  <action name="actionInformation">
+   <property name="text">
+    <string>Information</string>
    </property>
   </action>
  </widget>
