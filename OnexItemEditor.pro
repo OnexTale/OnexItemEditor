@@ -16,3 +16,8 @@ HEADERS  += \
 
 FORMS    += \
     src/mainwindow.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    resources.qrc
