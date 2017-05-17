@@ -31,7 +31,7 @@
      <rect>
       <x>11</x>
       <y>11</y>
-      <width>551</width>
+      <width>571</width>
       <height>561</height>
      </rect>
     </property>
@@ -337,8 +337,8 @@
       <rect>
        <x>200</x>
        <y>15</y>
-       <width>341</width>
-       <height>221</height>
+       <width>361</width>
+       <height>141</height>
       </rect>
      </property>
      <property name="title">
@@ -349,9 +349,9 @@
      <property name="geometry">
       <rect>
        <x>200</x>
-       <y>240</y>
-       <width>341</width>
-       <height>271</height>
+       <y>270</y>
+       <width>361</width>
+       <height>241</height>
       </rect>
      </property>
      <property name="title">
@@ -474,7 +474,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
     <widget class="QPushButton" name="updateButton">
      <property name="geometry">
       <rect>
-       <x>380</x>
+       <x>400</x>
        <y>520</y>
        <width>161</width>
        <height>31</height>
@@ -521,19 +521,168 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <string>Discard changes</string>
      </property>
     </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>277</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>219</y>
+       <width>171</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="dataGroupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>160</y>
+       <width>361</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Flags</string>
+     </property>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>14</y>
+        <width>341</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="checkBox_15">
+         <property name="text">
+          <string>Male only</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="checkBox_18">
+         <property name="text">
+          <string>Hero lvl equip.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="checkBox_17">
+         <property name="text">
+          <string>PvP/Reput. item</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="checkBox_13">
+         <property name="text">
+          <string>Female only</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="text">
+          <string>No selling</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QCheckBox" name="checkBox_16">
+         <property name="text">
+          <string>Newline on hover</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="checkBox_5">
+         <property name="text">
+          <string>No dropping</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QCheckBox" name="checkBox_8">
+         <property name="text">
+          <string>Useable ML obj.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="checkBox_12">
+         <property name="text">
+          <string>Limited</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="checkBox_6">
+         <property name="text">
+          <string>No trading</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QCheckBox" name="checkBox_14">
+         <property name="text">
+          <string>Select item on use</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QCheckBox" name="checkBox_10">
+         <property name="text">
+          <string>Stash</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="checkBox_7">
+         <property name="text">
+          <string>On-use warning</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QCheckBox" name="checkBox_11">
+         <property name="text">
+          <string>Desc. on hover</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="itemGroupBox">
     <property name="geometry">
      <rect>
-      <x>568</x>
+      <x>588</x>
       <y>11</y>
-      <width>221</width>
+      <width>201</width>
       <height>561</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>221</width>
+      <width>201</width>
       <height>561</height>
      </size>
     </property>
@@ -545,7 +694,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>201</width>
+       <width>181</width>
        <height>461</height>
       </rect>
      </property>
@@ -555,7 +704,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <rect>
        <x>10</x>
        <y>520</y>
-       <width>201</width>
+       <width>181</width>
        <height>31</height>
       </rect>
      </property>
@@ -571,7 +720,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
       <rect>
        <x>10</x>
        <y>490</y>
-       <width>201</width>
+       <width>181</width>
        <height>23</height>
       </rect>
      </property>
@@ -587,7 +736,7 @@ Tip: &quot;[n]&quot; is newline in item descriptions! Don't use \r and \n!</stri
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
